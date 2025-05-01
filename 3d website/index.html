@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D website</title>
+
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="preconnect" href="https://prod.spline.design">
+    <link rel="preload" href="https://unpkg.com/@splinetool/viewer@1.9.89/build/spline-viewer.js" as="script">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="coming-soon-popup">🚧 Coming Soon!</div>
+    <img class="image-gradient" src="assets/gradient.png" alt="">
+    <div class="layer-blur"></div>
+    <div id="intro">
+        <span id="intro-text"></span>
+    </div>
+
+    <div id="main-content">
+        <header>
+            <div class="head-container">
+                <div class="logo">CYBERNATE</div>
+                <div class="elements">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#c">Contact</a></li>
+                        <li><a href="#" class="coming-soon-link">Services</a></li>
+                        <li><a href="about.html" target="_blank">About</a></li>
+                    </ul>
+                </div>
+                <div class="button"><a href="#">Sign In</a></div>
+            </div>
+        </header>
+
+        <div class="layout-container">
+            <div class="content-column">
+                <main>
+                    <div class="all-content">
+                        <h1>CYBORG <br>
+                            EVOLVE BEYOND LIMITS</h1>
+                        <div class="msg">Cyborgs represent the next step in human evolution, <br>blending organic life
+                            with advanced technology.
+                            With enhanced strength, intelligence, and connectivity,
+                            <br> they are redefining what it means to be human in a digital age.
+                            <div class="buttons">
+                                <button class="b1">Explore Enhancements</button>
+                               <a href="#shop"> <button class="b2">BUY NOW</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+
+            <div class="spline-column">
+            </div>
+        </div>
+    </div>
+<section id="shop">
+    <div class="carousel">
+        <div class="list">
+            <div class="item">
+                <img src="assets/a.png">
+                <div class="introduce">
+                    <div class="title">CYBORG HAND </div>
+                    <div class="topic">GripMaster X1</div>
+                    <div class="des">
+
+                        Engineered for precision and power, the GripMaster X1 hand offers fine motor control alongside
+                        hydraulic strength. Its adaptive touch sensors allow for delicate operations or bone-crushing
+                        force. Ideal for surgical tasks, combat, or heavy lifting.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">GripMaster X1</div>
+                    <div class="des">
+                        Engineered for precision and power, the GripMaster X1 hand offers fine motor control alongside
+                        hydraulic strength. Its adaptive touch sensors allow for delicate operations or bone-crushing
+                        force. Ideal for surgical tasks, combat, or heavy lifting.
+                    </div>
+
+                    <div class="specifications">
+                        <div>
+                            <p>Force:</p>
+                            <p>800 PSI</p>
+                        </div>
+                        <div>
+                            <p>Fingers:</p>
+                            <p>5+2</p>
+                        </div>
+                        <div>
+                            <p>Feedback:</p>
+                            <p>Haptic</p>
+                        </div>
+
+                        <div>
+                            <p>Tools:</p>
+                            <p>Swappable</p>
+                        </div>
+                    </div>
+
+                    <div class="checkout">
+                        <button>ADD TO CART</button>
+                        <button>CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/b.png">
+                <div class="introduce">
+                    <div class="title">CYBORG HEAD</div>
+                    <div class="topic">NeuroCore H7</div>
+                    <div class="des">
+                        Equipped with quantum processing and 360° sensory input, the NeuroCore H7 transforms perception
+                        and strategy. It houses emotion-regulated decision systems and direct neural interface for
+                        instant thought-to-action response. Intelligence redefined.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+
+
+                <div class="detail">
+                    <div class="title">NeuroCore H7</div>
+                    <div class="des">
+                        Equipped with quantum processing and 360° sensory input, the NeuroCore H7 transforms perception
+                        and strategy. It houses emotion-regulated decision systems and direct neural interface for
+                        instant thought-to-action response. Intelligence redefined.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p> CPU:</p>
+                            <p> Tri-core</p>
+                        </div>
+                        <div>
+                            <p>Vision:</p>
+                            <p> IR/Zoom</p>
+                        </div>
+                        <div>
+                            <p>Sync:</p>
+                            <p> 0.02s</p>
+                        </div>
+
+                        <div>
+                            <p>Sensors:</p>
+                            <p> Enviro</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>ADD TO CART</button>
+                        <button>CHECKOUT</button>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/c.png">
+                <div class="introduce">
+                    <div class="title">CYBORG BODY</div>
+                    <div class="topic">TitanFrame C8</div>
+                    <div class="des">
+                        The TitanFrame C8 torso combines armored plating with bio-stabilizing internal frameworks.
+                        Designed to protect core systems and enhance durability under extreme conditions, it supports
+                        both human and AI interfaces. Built for survival and strength.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+
+
+
+                <div class="detail">
+                    <div class="title">TitanFrame C8</div>
+                    <div class="des">
+                        The TitanFrame C8 torso combines armored plating with bio-stabilizing internal frameworks.
+                        Designed to protect core systems and enhance durability under extreme conditions, it supports
+                        both human and AI interfaces. Built for survival and strength.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Armor:</p>
+                            <p> L6</p>
+                        </div>
+                        <div>
+                            <p>Core:</p>
+                            <p> Auto-repair</p>
+                        </div>
+                        <div>
+                            <p>Power:</p>
+                            <p> 4-way</p>
+                        </div>
+
+                        <div>
+                            <p>Backup:</p>
+                            <p> Dual</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>ADD TO CART</button>
+                        <button>CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="item">
+                <img src="assets/d.png">
+                <div class="introduce">
+                    <div class="title">CYBORG BODY</div>
+                    <div class="topic">AeroCore S5</div>
+                    <div class="des">
+                        This lightweight torso model emphasizes speed and agility, ideal for recon units or aerial
+                        operations. Made from carbon-titanium mesh, AeroCore S5 reduces energy draw while maximizing
+                        flexibility. A perfect blend of defense and motion.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+
+
+                <div class="detail">
+                    <div class="title">AeroCore S5</div>
+                    <div class="des">
+                        This lightweight torso model emphasizes speed and agility, ideal for recon units or aerial
+                        operations. Made from carbon-titanium mesh, AeroCore S5 reduces energy draw while maximizing
+                        flexibility. A perfect blend of defense and motion.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Weight:</p>
+                            <p> 20 kg</p>
+                        </div>
+                        <div>
+                            <p>Flight:</p>
+                            <p> VTOL</p>
+                        </div>
+                        <div>
+                            <p>Stealth:</p>
+                            <p> Active</p>
+                        </div>
+
+                        <div>
+                            <p>Flex:</p>
+                            <p> Enhanced</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>ADD TO CART</button>
+                        <button>CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/e.png">
+                <div class="introduce">
+                    <div class="title">CYBORG LEG</div>
+                    <div class="topic">Strider V2</div>
+                    <div class="des">
+                        The Strider V2 leg system delivers unmatched mobility with built-in shock absorption and
+                        terrain-adaptive joints. Capable of sprinting at 60 km/h and leaping over obstacles, it’s
+                        perfect for combat, rescue, or exploration units.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Strider V2</div>
+                    <div class="des">
+                        The Strider V2 leg system delivers unmatched mobility with built-in shock absorption and
+                        terrain-adaptive joints. Capable of sprinting at 60 km/h and leaping over obstacles, it’s
+                        perfect for combat, rescue, or exploration units.
+                    </div>
+                    <div class="specifications">
+                        <div>
+
+                            <p>Speed:
+                            <p>
+                            <p> 60 km/h</p>
+                        </div>
+                        <div>
+                            <p>Jump:</p>
+                            <p> 3.2 m</p>
+                        </div>
+                        <div>
+                            <p>Balance:</p>
+                            <p> Auto</p>
+                        </div>
+
+                        <div>
+                            <p>Endurance:</p>
+                            <p> 48h</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>ADD TO CART</button>
+                        <button>CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/f.png">
+                <div class="introduce">
+                    <div class="title">CYBORG ARM</div>
+                    <div class="topic">ForceLine R3</div>
+                    <div class="des">
+                        With modular weapon ports and enhanced torque control, the ForceLine R3 arm delivers brute
+                        strength and tactical utility. Its servo-motor system adapts to combat, construction, or rescue
+                        modes. Power meets precision in every motion.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">ForceLine R3</div>
+                    <div class="des">
+                        With modular weapon ports and enhanced torque control, the ForceLine R3 arm delivers brute
+                        strength and tactical utility. Its servo-motor system adapts to combat, construction, or rescue
+                        modes. Power meets precision in every motion.
+                    </div>
+                    <div class="specifications">
+                        <div>
+
+                            <p>Lift:</p>
+                            <p> 1.2T</p>
+                        </div>
+                        <div>
+                            <p>Ports:</p>
+                            <p> x3</p>
+                        </div>
+                        <div>
+                            <p>Touch:</p>
+                            <p> Precision</p>
+                        </div>
+
+                        <div>
+                            <p>Modes:</p>
+                            <p> 3</p>
+                            >
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button style="cursor: pointer;">ADD TO CART</button>
+                        <button style="cursor: pointer;">CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev"> &#x2190; </button>
+            <button id="next"> &#x2192; </button>
+            <button id="back">Back &#8599</button>
+
+        </div>
+    </div>
+</section>
+    <section id="c">
+        <div class="container">
+            <span class="big-circle"></span>
+            <img src="" class="square" alt="" />
+            <div class="form">
+                <div class="contact-info">
+                    <h3 class="title">Let's get in touch</h3>
+                    <p class="text">
+                        Our cy-tech experts are ready 24/7 to assist with upgrades, support, or consultations.
+                    </p>
+                    <div class="info">
+                        <div class="information">
+                            <img src="" class="icon" alt="" />
+                            <p>Address: 8829 MechDrive Blvd, Sector 17, NeoTokyo, JP 22013</p>
+                        </div>
+                        <div class="information">
+                            <img src="img/email.png" class="icon" alt="" />
+                            <p>Email: support@cyborgunitx.com</p>
+                        </div>
+                        <div class="information">
+                            <img src="img/phone.png" class="icon" alt="" />
+                            <p>Phone: +81 55-3947-1123</p>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <p>Connect with us :</p>
+                        <div class="social-icons">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <span class="circle one"></span>
+                    <span class="circle two"></span>
+
+                    <form action="index.html" autocomplete="off">
+                        <h3 class="title">Contact us</h3>
+                        <div class="input-container">
+                            <input type="text" name="name" class="input" />
+                            <label for="">Username</label>
+                            <span>Username</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email" class="input" />
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="tel" name="phone" class="input" />
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea name="message" class="input"></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                        </div>
+                        <input type="submit" value="Send" class="btn" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.89/build/spline-viewer.js" defer></script>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
