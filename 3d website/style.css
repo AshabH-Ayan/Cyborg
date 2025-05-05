@@ -490,108 +490,65 @@ header {
 }
 
 
-  .carousel.next .item:nth-child(1) {
-    animation: positionItem2 0.5s ease-in-out 1 forwards;
+.carousel.next .item:nth-child(1){
+    animation: transformFromPosition2 0.5s ease-in-out 1 forwards;
 }
-
-@keyframes positionItem2 {
-    from {
+@keyframes transformFromPosition2{
+    from{
         transform: var(--item2-transform);
         filter: var(--item2-filter);
         opacity: var(--item2-opacity);
     }
-
-    to {
-        transform: var(--item1-transform);
-        filter: var(--item1-filter);
-        opacity: var(--item1-opacity);
-    }
 }
-
-.carousel.next .item:nth-child(2) {
-    animation: positionItem3 0.7s ease-in-out 1 forwards;
+.carousel.next .item:nth-child(2){
+    animation: transformFromPosition3 0.7s ease-in-out 1 forwards;
 }
-
-@keyframes positionItem3 {
-    from {
+@keyframes transformFromPosition3{
+    from{
         transform: var(--item3-transform);
         filter: var(--item3-filter);
         opacity: var(--item3-opacity);
     }
-
-    to {
-        transform: var(--item2-transform);
-        filter: var(--item2-filter);
-        opacity: var(--item2-opacity);
-    }
 }
-
-.carousel.next .item:nth-child(3) {
-    animation: positionItem4 0.9s ease-in-out 1 forwards;
+.carousel.next .item:nth-child(3){
+    animation: transformFromPosition4 0.9s ease-in-out 1 forwards;
 }
-
-@keyframes positionItem4 {
-    from {
+@keyframes transformFromPosition4{
+    from{
         transform: var(--item4-transform);
         filter: var(--item4-filter);
         opacity: var(--item4-opacity);
     }
-
-    to {
-        transform: var(--item3-transform);
-        filter: var(--item3-filter);
-        opacity: var(--item3-opacity);
-    }
 }
-
-.carousel.next .item:nth-child(4) {
-    animation: positionItem5 1.1s ease-in-out 1 forwards;
+.carousel.next .item:nth-child(4){
+    animation: transformFromPosition5 1.1s ease-in-out 1 forwards;
 }
-
-@keyframes positionItem5 {
-    from {
+@keyframes transformFromPosition5{
+    from{
         transform: var(--item5-transform);
         filter: var(--item5-filter);
         opacity: var(--item5-opacity);
     }
-
-    to {
-        transform: var(--item4-transform);
-        filter: var(--item4-filter);
-        opacity: var(--item4-opacity);
+}
+/* previous */
+.carousel.prev .list .item:nth-child(5){
+    animation: transformFromPosition4 0.5s ease-in-out 1 forwards;
+}
+.carousel.prev .list .item:nth-child(4){
+    animation: transformFromPosition3 0.7s ease-in-out 1 forwards;
+}
+.carousel.prev .list .item:nth-child(3){
+    animation: transformFromPosition2 0.9s ease-in-out 1 forwards;
+}
+.carousel.prev .list .item:nth-child(2){
+    animation: transformFromPosition1 1.1s ease-in-out 1 forwards;
+}
+@keyframes transformFromPosition1{
+    from{
+        transform: var(--item1-transform);
+        filter: var(--item1-filter);
+        opacity: var(--item1-opacity);        
     }
-}
-.carousel.prev .list .item:nth-child(2) {
-    transform: var(--item2-transform);
-    filter: var(--item2-filter);
-    opacity: var(--item2-opacity);
-    z-index: var(--item2-zIndex);
-    transition: all 0.5s ease-in-out;
-}
-
-.carousel.prev .list .item:nth-child(3) {
-    transform: var(--item3-transform);
-    filter: var(--item3-filter);
-    opacity: var(--item3-opacity);
-    z-index: var(--item3-zIndex);
-    transition: all 0.7s ease-in-out;
-}
-
-.carousel.prev .list .item:nth-child(4) {
-    transform: var(--item4-transform);
-    filter: var(--item4-filter);
-    opacity: var(--item4-opacity);
-    z-index: var(--item4-zIndex);
-    transition: all 0.9s ease-in-out;
-}
-
-/* Uncomment if needed: */
-.carousel.prev .list .item:nth-child(5) {
-    transform: var(--item5-transform);
-    filter: var(--item5-filter);
-    opacity: var(--item5-opacity);
-    z-index: var(--item5-zIndex);
-    transition: all 1.1s ease-in-out;
 }
 
 .carousel .list .item .detail {
